@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 8px 0 0;
+  font-size: 18px;
+}
+
+main {
+  flex: 1;
+}
+
+.welcome {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 35px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h2 {
+  margin-bottom: 30px;
+}
+
+.student-info {
+  text-align: left;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.image-section {
+  margin-top: 25px;
+}
+
+.react-image {
+  width: 130px;
+  height: 130px;
+}
+
+.footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+.students-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.students-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.student-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.student-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+  margin-top: 0;
+}
+
+.student-card p {
+  margin: 8px 0;
+}
+
+.use-state {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.use-state h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.state-card {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.state-card h3 {
+  margin-top: 0;
+}
+
+.state-card p {
+  font-size: 17px;
+}
+
+.state-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.state-buttons button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.student-manager {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.student-manager h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.student-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.student-input input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.student-input button,
+.student-list button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.student-list {
+  padding: 0;
+  list-style: none;
+}
+
+.student-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
