@@ -50,7 +50,7 @@ pet-shop/
 │   ├── Footer.png
 │   └── thumbnail.png
 │
-├── index.html
+├── index.html 
 ├── package.json
 ├── package-lock.json
 └── vite.config.js
