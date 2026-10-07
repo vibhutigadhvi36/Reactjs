@@ -1,0 +1,109 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The Future of Web Development",
+      "author": "Vibhuti Gadhvi",
+      "email": "vibhuti@example.com",
+      "category": "JavaScript",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
+      "description": "Explore how modern technologies are changing the world of web development.",
+      "content": "Web development is continuously evolving with new frameworks, tools and technologies. Developers today can create powerful and interactive applications using modern JavaScript frameworks such as React. Learning the fundamentals of HTML, CSS and JavaScript provides a strong foundation for every developer.",
+      "tags": "HTML, CSS, JavaScript, React",
+      "publishDate": "2026-10-01",
+      "status": "Published"
+    },
+    {
+      "id": "2",
+      "title": "Understanding JavaScript",
+      "author": "Tisha mali",
+      "email": "Tisha@example.com",
+      "category": "JavaScript",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800",
+      "description": "Learn the fundamentals of JavaScript and why it is important for web developers.",
+      "content": "JavaScript is a powerful programming language used to create dynamic and interactive websites. It supports modern concepts such as functions, objects, arrays, promises, async programming and modules.",
+      "tags": "JavaScript, Programming, Web",
+      "publishDate": "2026-09-28",
+      "status": "Published"
+    },
+    {
+      "id": "3",
+      "title": "Getting Started with React",
+      "author": "Jiya Prajapati",
+      "email": "jiya@example.com",
+      "category": "React",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800",
+      "description": "A beginner-friendly introduction to React components and hooks.",
+      "content": "React is a JavaScript library for building user interfaces. React applications are divided into reusable components. Hooks such as useState and useEffect allow functional components to manage state and side effects.",
+      "tags": "React, Hooks, Components",
+      "publishDate": "2026-09-25",
+      "status": "Published"
+    },
+    {
+      "id": "4",
+      "title": "Why Responsive Design Matters",
+      "author": "Neha Shah",
+      "email": "neha@example.com",
+      "category": "Design",
+      "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800",
+      "description": "Learn why responsive websites are essential in modern web development.",
+      "content": "Users access websites from phones, tablets, laptops and desktop computers. Responsive design allows websites to adapt to different screen sizes and provides a better user experience.",
+      "tags": "CSS, Bootstrap, Responsive",
+      "publishDate": "2026-09-20",
+      "status": "Published"
+    },
+    {
+      "id": "5",
+      "title": "Introduction to Redux",
+      "author": "Aarav Mehta",
+      "email": "aarav@example.com",
+      "category": "React",
+      "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800",
+      "description": "Understand global state management using Redux Toolkit.",
+      "content": "Redux is a state management library that helps applications manage shared state. Redux Toolkit simplifies the process of creating slices, actions and reducers.",
+      "tags": "Redux, React, State",
+      "publishDate": "2026-09-15",
+      "status": "Published"
+    },
+    {
+      "id": "6",
+      "title": "How APIs Work",
+      "author": "Karan Joshi",
+      "email": "karan@example.com",
+      "category": "Technology",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+      "description": "Understand APIs and how frontend applications communicate with servers.",
+      "content": "An API allows different software applications to communicate with each other. Frontend applications commonly use APIs to fetch, create, update and delete data from a backend.",
+      "tags": "API, Fetch, Axios",
+      "publishDate": "2026-09-10",
+      "status": "Published"
+    },
+    {
+      "id": "7",
+      "title": "Learning Node.js",
+      "author": "Meet Tiwari",
+      "email": "meet@example.com",
+      "category": "Node.js",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+      "description": "A beginner's guide to understanding Node.js and backend development.",
+      "content": "Node.js allows developers to execute JavaScript outside the browser. It is widely used to build APIs, web servers and backend applications.",
+      "tags": "Node, Backend, JavaScript",
+      "publishDate": "2026-09-05",
+      "status": "Draft"
+    },
+    {
+      "id": "8",
+      "title": "Tips for Becoming a Better Developer",
+      "author": "Ananya Patel",
+      "email": "ananya@example.com",
+      "category": "Career",
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800",
+      "description": "Practical tips for improving your programming and development skills.",
+      "content": "Becoming a better developer requires consistent practice, problem solving and learning. Building real-world projects is one of the best ways to improve your skills.",
+      "tags": "Career, Coding, Development",
+      "publishDate": "2026-09-01",
+      "status": "Draft"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
