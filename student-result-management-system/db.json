@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "rollNo": "101",
+      "phone": "9876543210",
+      "email": "aarav@gmail.com",
+      "age": 20,
+      "class": "BCA",
+      "grade": "A",
+      "image": "",
+      "math": 85,
+      "science": 78,
+      "english": 92
+    },
+    {
+      "id": 2,
+      "name": "Priya Singh",
+      "rollNo": "102",
+      "phone": "9876543211",
+      "email": "priya@gmail.com",
+      "age": 21,
+      "class": "B.Sc",
+      "grade": "B",
+      "image": "",
+      "math": 76,
+      "science": 69,
+      "english": 80
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "name": "Admin User"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+@media (max-width: 1200px) {
+
+  .sidebar {
+    width: 220px;
+    min-width: 220px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .student-dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .student-form-card {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .student-list-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .student-controls {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .dashboard-banner {
+    padding: 25px;
+  }
+
+  .banner-content h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .sidebar {
+    width: 70px;
+    min-width: 70px;
+  }
+
+  .brand-text,
+  .sidebar-link span {
+    display: none;
+  }
+
+  .sidebar-brand {
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .sidebar-link {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .sidebar-link.active {
+    padding-left: 0;
+  }
+
+  .navbar-search {
+    width: 200px;
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+
+  .admin-info {
+    display: none;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-banner {
+    min-height: 130px;
+  }
+
+  .banner-illustration {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .main-content {
+    padding: 12px;
+  }
+
+  .top-navbar {
+    padding: 0 12px;
+  }
+
+  .navbar-search {
+    width: 170px;
+  }
+
+  .student-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .table-search,
+  .filter-select,
+  .sort-select,
+  .add-result-btn {
+    width: 100%;
+  }
+}
